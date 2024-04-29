@@ -1,0 +1,23 @@
+{
+  "name": "seguranca-vip-app",
+  "version": "1.0.0",
+  "description": "App Segurança Vip",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "seguranca-vip-electron"
+  },
+  "keywords": [],
+  "author": "BFV Desenvolvimentos",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^30.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  }
+}

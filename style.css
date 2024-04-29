@@ -1,0 +1,85 @@
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}/************************Ajuste da tela da logo**********************************/
+.splash-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.logo {
+    width: 400px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    animation: zoomIn 5s; /* Adiciona o efeito de zoomIn */
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+/***************************Ajustes da página home*****************************************/
+#home{
+    background-color: #000000;
+    height: 100vh;  
+}
+
+#home span i{
+    font-size: 7rem;
+    padding: 2rem;
+    color: #FFFF00; 
+}
+#home h1{
+    color: #FFFF00; 
+}
+#home .row .p-3{
+    cursor: pointer;
+   
+}
+footer{
+    background-color: #000000;
+}
+/***************************Ajustes da página financeiro*****************************************/
+
+#financeiro{
+    background-color: #000000;
+    height: 100vh;
+}
+span i{
+    color: #FFFF00;
+    font-size: 3rem;
+}
+/***************************Ajustes da página Cadastros*****************************************/
+
+/***************************Ajustes da página Pré Cadastros*****************************************/
+#preCadastro{
+    background-color: #000000;
+    height: 100vh;
+}
+#dadosPreCadastro{
+    color: #FFFF00;
+}
+#atualizarPagina{
+    display: flex;
+    justify-content: end;
+}
+#atualizarPagina .btn {
+    color: #FFFF00;
+    font-size: 3rem;
+}
+#voltar{
+    display: flex;
+    justify-content: start;  
+}
